@@ -97,7 +97,7 @@ All parameters can be tuned via environment variables:
 
 ## Security
 
-- **Never commit your private key or `.env` file.** The `.gitignore` is configured to exclude `*.pem`, `*.key`, `Boroldoi.txt`, and `.env`.
+- **Never commit your private key or `.env` file.** 
 - Store your RSA private key outside the project directory when possible.
 - The bot uses RSA-PSS signing for Kalshi API authentication — your private key never leaves your machine.
 
